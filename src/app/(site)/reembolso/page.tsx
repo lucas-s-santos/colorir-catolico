@@ -22,7 +22,7 @@ export default function ReembolsoPage() {
       <h2>Como solicitar</h2>
       <p>
         Basta escrever para{" "}
-        <a href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a>{" "}
+        <a href="mailto:lucassilvadossantos2005@gmail.com">lucassilvadossantos2005@gmail.com</a>{" "}
         informando o e-mail usado na compra. O estorno é feito pelo mesmo meio de
         pagamento (no Pix, na conta informada).
       </p>

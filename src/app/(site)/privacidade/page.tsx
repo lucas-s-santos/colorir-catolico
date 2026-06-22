@@ -45,7 +45,7 @@ export default function PrivacidadePage() {
       <p>
         Você pode solicitar acesso, correção ou exclusão dos seus dados a
         qualquer momento pelo e-mail de contato:{" "}
-        <a href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a>.
+        <a href="mailto:lucassilvadossantos2005@gmail.com">lucassilvadossantos2005@gmail.com</a>.
       </p>
 
       <h2>Retenção</h2>

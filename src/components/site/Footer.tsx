@@ -18,6 +18,15 @@ export function Footer() {
               Evangelizando com cor e arte. Desenhos prontos para imprimir e
               colorir, para famílias, catequese e momentos de fé.
             </p>
+            <p className="mt-3 text-sm text-ink-soft">
+              Contato:{" "}
+              <a
+                href="mailto:lucassilvadossantos2005@gmail.com"
+                className="font-medium text-gold-dark hover:underline"
+              >
+                lucassilvadossantos2005@gmail.com
+              </a>
+            </p>
           </div>
 
           <nav className="grid grid-cols-2 gap-x-12 gap-y-2 text-sm text-ink-soft">
