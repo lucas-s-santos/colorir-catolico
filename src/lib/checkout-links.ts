@@ -6,7 +6,7 @@ export const CHECKOUT_LINKS: Record<string, string> = {
   "grandes-momentos-da-fe": "https://pay.kiwify.com.br/2VzqZBZ",
   "vida-dos-santos-e-milagres": "https://pay.kiwify.com.br/Hz7u4G3",
   "cenas-biblicas-e-sacramentos": "https://pay.kiwify.com.br/v08qc0i",
-  // "combo-3-livros": "",  // <- adicionar quando criar o combo na Kiwify
+  "combo-3-livros": "https://pay.kiwify.com.br/5RMeJxQ",
 };
 
 /** Link de checkout de um produto (null se ainda não cadastrado). */
