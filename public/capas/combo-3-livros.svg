@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Capa — Combo Completo com os 3 livros">
+  <defs>
+    <linearGradient id="bgc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2e22"/>
+      <stop offset="1" stop-color="#211913"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bgc)"/>
+  <rect x="28" y="28" width="544" height="744" fill="none" stroke="#c2962c" stroke-width="3"/>
+  <rect x="40" y="40" width="520" height="720" fill="none" stroke="#c2962c" stroke-width="1" opacity="0.55"/>
+
+  <text x="300" y="112" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="6" fill="#e6c878">ATELIÊ CATÓLICO DIGITAL</text>
+  <line x1="240" y1="130" x2="360" y2="130" stroke="#c2962c" stroke-width="1" opacity="0.7"/>
+
+  <text x="300" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="24" letter-spacing="8" fill="#e6c878">COLEÇÃO COMPLETA</text>
+
+  <!-- Três livros lado a lado -->
+  <g stroke="#c2962c" stroke-width="2">
+    <rect x="222" y="248" width="48" height="170" rx="6" fill="#2a4a76"/>
+    <rect x="276" y="236" width="48" height="182" rx="6" fill="#8a3543"/>
+    <rect x="330" y="248" width="48" height="170" rx="6" fill="#357a5b"/>
+  </g>
+  <g fill="#e6c878">
+    <rect x="289" y="196" width="14" height="44" rx="3"/>
+    <rect x="277" y="210" width="38" height="14" rx="3"/>
+  </g>
+
+  <text x="300" y="500" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="bold" fill="#fdfaf3">Combo</text>
+  <text x="300" y="552" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#fdfaf3">os 3 livros juntos</text>
+
+  <rect x="195" y="600" width="210" height="50" rx="25" fill="#c2962c"/>
+  <text x="300" y="633" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#211913">60 desenhos</text>
+
+  <text x="300" y="712" text-anchor="middle" font-family="Georgia, serif" font-size="19" letter-spacing="2" fill="#e6c878">com desconto especial • PDF</text>
+</svg>

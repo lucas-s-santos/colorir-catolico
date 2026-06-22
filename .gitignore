@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 *.pem
+.claude/
 
 # debug
 npm-debug.log*
@@ -32,6 +33,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +41,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# arquivos-fonte dos livros (capas/desenhos originais) — NÃO versionar nem publicar.
+# As capas usadas no site ficam em public/capas; os PDFs finais vão p/ o Supabase.
+/livro1
+/livro2
+/livro3
+/assets-fonte
+/pdfs-gerados
