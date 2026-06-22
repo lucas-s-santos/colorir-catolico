@@ -64,7 +64,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     descricao:
       "Os três livros juntos — Grandes Momentos da Fé, Vida dos Santos e Milagres e Cenas Bíblicas e Sacramentos — reunidos com um desconto especial. Sessenta desenhos para colorir a fé do começo ao fim.",
     preco_centavos: 4990,
-    capa_url: "/capas/combo-3-livros.svg",
+    capa_url: "/capas/combo-3-livros.png",
     arquivo_path: null,
     num_desenhos: 60,
     ativo: true,

@@ -75,10 +75,21 @@ export function getPreviews(slug: string): PreviewImage[] {
   return PREVIEWS[slug] ?? [];
 }
 
-/** Mix intercalado dos livros, para a vitrine da landing. */
-export const LANDING_PREVIEWS: PreviewImage[] = grandesMomentosDaFe.flatMap(
-  (img, i) => {
-    const outro = vidaDosSantosEMilagres[i];
-    return outro ? [img, outro] : [img];
-  },
-);
+/** Mix intercalado dos 3 livros, para a vitrine da landing. */
+const livrosParaVitrine = [
+  grandesMomentosDaFe,
+  vidaDosSantosEMilagres,
+  cenasBiblicasESacramentos,
+];
+
+export const LANDING_PREVIEWS: PreviewImage[] = (() => {
+  const out: PreviewImage[] = [];
+  const max = Math.max(...livrosParaVitrine.map((l) => l.length));
+  for (let i = 0; i < max; i++) {
+    for (const livro of livrosParaVitrine) {
+      const img = livro[i];
+      if (img) out.push(img);
+    }
+  }
+  return out;
+})();
