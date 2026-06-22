@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Quais as formas de pagamento?",
-    a: "Pix e cartão de crédito, processados com segurança pelo Mercado Pago.",
+    a: "Pix, cartão de crédito ou boleto, processados com segurança pela Kiwify.",
   },
   {
     q: "E se eu tiver algum problema com o download?",

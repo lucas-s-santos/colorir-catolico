@@ -2,7 +2,7 @@ const itens = [
   {
     icone: "🔒",
     titulo: "Pagamento seguro",
-    texto: "Processado pelo Mercado Pago, com Pix e cartão.",
+    texto: "Processado pela Kiwify, com Pix, cartão ou boleto.",
   },
   {
     icone: "⚡",

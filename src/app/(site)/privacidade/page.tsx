@@ -22,8 +22,8 @@ export default function PrivacidadePage() {
           <strong>E-mail</strong>: para enviar o link de download e dar suporte.
         </li>
         <li>
-          <strong>Dados do pagamento</strong>: processados diretamente pelo
-          Mercado Pago. Não armazenamos números de cartão.
+          <strong>Dados do pagamento</strong>: processados diretamente pela
+          Kiwify. Não armazenamos números de cartão.
         </li>
       </ul>
 
@@ -36,9 +36,9 @@ export default function PrivacidadePage() {
 
       <h2>Compartilhamento</h2>
       <p>
-        Compartilhamos dados apenas com os parceiros essenciais à operação:
-        Mercado Pago (pagamento), Supabase (banco de dados e armazenamento) e o
-        provedor de e-mail (Resend). Não vendemos seus dados.
+        Compartilhamos dados apenas com o parceiro essencial à operação: a
+        Kiwify (checkout, processamento do pagamento e entrega do produto
+        digital). Não vendemos seus dados.
       </p>
 
       <h2>Seus direitos</h2>

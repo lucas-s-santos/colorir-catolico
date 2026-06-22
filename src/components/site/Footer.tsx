@@ -44,7 +44,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col gap-2 border-t border-gold/15 pt-6 text-xs text-ink-soft sm:flex-row sm:items-center sm:justify-between">
           <p>© {ano} Ateliê Católico Digital. Todos os direitos reservados.</p>
-          <p>Pagamento seguro via Mercado Pago • Pix e cartão • Download imediato</p>
+          <p>Pagamento seguro via Kiwify • Pix, cartão e boleto • Acesso imediato</p>
         </div>
       </div>
     </footer>
