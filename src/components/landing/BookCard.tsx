@@ -46,13 +46,7 @@ export function BookCard({ product }: { product: Product }) {
         </div>
 
         <div className="mt-5 flex flex-col gap-2">
-          <BuyButton
-            productId={product.id}
-            titulo={product.titulo}
-            precoCentavos={product.preco_centavos}
-            label="Comprar"
-            className="w-full"
-          />
+          <BuyButton slug={product.slug} label="Comprar" className="w-full" />
           <Link
             href={href}
             className="text-center text-sm font-medium text-gold-dark hover:underline"

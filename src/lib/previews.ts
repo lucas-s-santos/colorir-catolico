@@ -44,10 +44,30 @@ const vidaDosSantosEMilagres: PreviewImage[] = [
   },
 ];
 
+const cenasBiblicasESacramentos: PreviewImage[] = [
+  {
+    src: "/amostras/cenas-biblicas-e-sacramentos/a-criacao.jpg",
+    label: "A criação",
+  },
+  {
+    src: "/amostras/cenas-biblicas-e-sacramentos/as-bodas-de-cana.jpg",
+    label: "As bodas de Caná",
+  },
+  {
+    src: "/amostras/cenas-biblicas-e-sacramentos/o-bom-samaritano.jpg",
+    label: "O bom samaritano",
+  },
+  {
+    src: "/amostras/cenas-biblicas-e-sacramentos/a-uncao-dos-enfermos.jpg",
+    label: "A unção dos enfermos",
+  },
+];
+
 /** Amostras por slug de produto (para a página de cada livro). */
 export const PREVIEWS: Record<string, PreviewImage[]> = {
   "grandes-momentos-da-fe": grandesMomentosDaFe,
   "vida-dos-santos-e-milagres": vidaDosSantosEMilagres,
+  "cenas-biblicas-e-sacramentos": cenasBiblicasESacramentos,
 };
 
 /** Amostras de um livro (vazio se não houver). */

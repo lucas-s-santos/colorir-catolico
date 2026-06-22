@@ -115,9 +115,7 @@ export default async function ProdutoPage({ params }: { params: Params }) {
 
           <div className="mt-6">
             <BuyButton
-              productId={product.id}
-              titulo={product.titulo}
-              precoCentavos={product.preco_centavos}
+              slug={product.slug}
               label="Comprar agora"
               className="w-full sm:w-auto"
             />
@@ -135,8 +133,8 @@ export default async function ProdutoPage({ params }: { params: Params }) {
           </ul>
 
           <p className="mt-6 text-xs text-ink-soft">
-            🔒 Pagamento seguro via Mercado Pago (Pix e cartão). Você recebe o
-            link de download por e-mail assim que o pagamento for confirmado.
+            🔒 Pagamento seguro pela Kiwify (Pix, cartão ou boleto). O acesso ao
+            PDF é liberado automaticamente após a confirmação do pagamento.
           </p>
         </div>
       </div>

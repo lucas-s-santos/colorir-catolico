@@ -72,9 +72,7 @@ export function ComboSection({
 
               <div className="mt-6">
                 <BuyButton
-                  productId={combo.id}
-                  titulo={combo.titulo}
-                  precoCentavos={combo.preco_centavos}
+                  slug={combo.slug}
                   label="Quero o combo completo"
                   variant="combo"
                   className="w-full sm:w-auto"
